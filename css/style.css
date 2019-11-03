@@ -1642,31 +1642,7 @@ right: -50px;
     position: relative;
     transition: 0.5s;
 }
-.gallery-img:hover:before{
-    content: '';
-    position: absolute;
-    background: url(../images/zoom-arrow.png) no-repeat;
-    top: 0;
-    left: 0;
-    width: 100px;
-    height: 100px;
-    margin: auto;
-    right: 0;
-    bottom: 0;
-    z-index: 2;
-}
-.gallery-img:hover:after{
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    right: 0;
-    bottom: 0;
-    z-index: 1;
-    background-color: rgba(0, 0, 0, 0.7);
-}
+
 .hover-shadow{
     position: relative;
     transition: 0.3s;

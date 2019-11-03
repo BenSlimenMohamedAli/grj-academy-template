@@ -42,7 +42,7 @@ jQuery(document).ready(function($) {
     // Countdown ----------------------------------------
     $(function() {
         var austDay = new Date();
-        austDay = new Date(austDay.getFullYear() + 1, 1 - 1, 26);
+        austDay = new Date(2020, 1, 1);
         $('#defaultCountdown').countdown({
             until: austDay
         });
@@ -104,20 +104,17 @@ jQuery(document).ready(function($) {
 
     // What Client Says Slider------------------------------------------
     $('#sponsers-logo-slider .owl-carousel').owlCarousel({
-        loop: true,
+        loop: false,
         nav: false,
         responsive: {
             0: {
                 items: 1
             },
-            480: {
+            300: {
                 items: 2
             },
             600: {
                 items: 2
-            },
-            1000: {
-                items: 3
             }
         }
     })
