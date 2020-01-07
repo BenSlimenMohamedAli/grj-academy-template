@@ -42,7 +42,7 @@ jQuery(document).ready(function($) {
     // Countdown ----------------------------------------
     $(function() {
         var austDay = new Date();
-        austDay = new Date(2020, 1, 1);
+        austDay = new Date(2020, 3, 2);
         $('#defaultCountdown').countdown({
             until: austDay
         });
